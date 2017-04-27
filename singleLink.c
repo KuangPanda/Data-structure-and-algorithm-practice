@@ -86,7 +86,7 @@ struct Student* Del(struct Student *head, int num) {
 
         free(p1);
         p1 = NULL;
-        printf("\delete %ld success!\n", num);
+        printf("delete %ld success!\n", num);
     }
     else {
         printf("\n%d not found\n", num);
