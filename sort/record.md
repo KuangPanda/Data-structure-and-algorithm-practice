@@ -10,7 +10,7 @@
   * 比较相邻的元素. 如果第一个比第二个大, 就交换它们的位置(从小到大). 从大到小正好相反.
   * 对0到n-1个数据做同样的工作. 这时, 最大的数就沉到了数组最后的位置上.
   * 针对所有的元素重复以上步骤, 已经排好序的可以不参与操作(忽略最后面沉下去的元素)
-* [实现](https://github.com/kuangpanda/Data-structure-and-algorithm-practice/)
+* [实现](https://github.com/KuangPanda/Data-structure-and-algorithm-practice/blob/master/sort/bubbleSort.cpp)
 * 优化
   * 如果某一次遍历过程中没有发生数据交换, 说明已经是有序的.
   * 记录某次遍历时最后发生数据交换的位置, 这个位置之后的数据已经是有序的
@@ -31,7 +31,7 @@
   * 在未排序的序列中找到最小(大)元素, 存放在排序序列的起始位置.
   * 再从剩余未排序元素中继续寻找最小(大)元素, 然后放在已排序序列的末尾.
   * 重复上述步骤.
-* [实现]()
+* [实现](https://github.com/KuangPanda/Data-structure-and-algorithm-practice/blob/master/sort/selectSort.cpp)
 * 复杂度
   * 平均时间: O(n^2)
   * 最坏时间: O(n^2)
@@ -56,7 +56,7 @@
   * 如果被扫描的元素(已排序)大于新的元素, 则前进. 直到找到比新元素值小得元素
   * 将新元素插到该元素的后面
 
-* [实现]()
+* [实现](https://github.com/KuangPanda/Data-structure-and-algorithm-practice/blob/master/sort/insertSort.cpp)
 
 * 复杂度
   * 平均时间: O(n^2)
@@ -75,7 +75,7 @@
   * 分区过程, 将比这个数大的元素放在这个数的右边, 将比这个数小的元素放在这个数的左边
   * 分区过程, 先从后往前找, 找到第一个比基准元素小的元素. 在从前往后找, 找到第一个比基准元素大的元素
   * 再对左右区间重复分区过程, 直到各区间只有一个数
-* [实现]()
+* [实现](https://github.com/KuangPanda/Data-structure-and-algorithm-practice/blob/master/sort/quickSort.cpp)
 * 复杂度
   * 平均时间: O(nlogn)
   * 最坏时间: O(n^2)
@@ -90,7 +90,7 @@
   * 递减增量排序算法, 实质是分组插入排序
 * 步骤
   * 先将整个待排元素序列分割成若干个子序列(由相隔某个增量的元素组成的)分别进行直接插入排序, 然后依次缩减增量再进行排序, 待整个序列中的元素基本有序(增量足够小)时, 再对全体元素进行一次直接插入排序
-* [实现]()
+* [实现](https://github.com/KuangPanda/Data-structure-and-algorithm-practice/blob/master/sort/shellSort.cpp)
 * 复杂度
   * 平均时间: O(nlogn)
   * 最坏时间: O(n^2)
@@ -112,7 +112,7 @@
   * 合并有序数组
   * 递归分解数组
 
-* [实现]()
+* [实现](https://github.com/KuangPanda/Data-structure-and-algorithm-practice/blob/master/sort/mergeSort.cpp)
 
 * 复杂度
   * 平均时间:
